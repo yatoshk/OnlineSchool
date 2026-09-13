@@ -340,7 +340,7 @@ onMounted(() => {
                     работы и уровня образования, и не имеющими ограничений для занятия <br>
                     педагогической деятельностью.</p>
 
-                  <p class="document-link" data-file="PedSostav.pdf">Педагогический состав</p>
+                  <!-- <p class="document-link" data-file="PedSostav.pdf">Педагогический состав</p> -->
                 </div>
 
                 <div v-else-if="item.type === 'paid-services'" class="documents-content">
