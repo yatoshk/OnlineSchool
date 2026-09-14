@@ -348,6 +348,10 @@ onMounted(() => {
 
                   <p>Форма обучения - дистанционная</p>
                   <p class="document-link" data-file="4.5_online.pdf">О языках образования</p>
+
+                  <h3>Расписание занятий</h3>
+                  <p class="document-link" data-file="schedule.1_online.pdf">Расписание занятий на 2026-2027 учебный год</p>
+                  <p class="document-link" data-file="schedule.2_online.pdf">Расписание каникул и праздников</p>
                 </div>
 
                 <div v-else-if="item.type === 'teachers'" class="documents-content">
